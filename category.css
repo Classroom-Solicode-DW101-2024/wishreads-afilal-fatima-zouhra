@@ -1,0 +1,44 @@
+body{
+
+    display: flex;
+    margin: 0;
+    padding: 16px;
+    gap: 5px;
+    box-sizing: border-box;
+
+}
+
+.category_section{
+    width: 30%;
+    border: 1px solid #B6B6B6;
+    border-radius: 16px;
+}
+
+.books_section{
+
+    width: 70%;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.category_section h1{
+
+    text-align: left;
+    margin:16px;
+
+}
+
+.category_section section{
+
+    border-top: 1px solid #B6B6B6;
+    padding: 16px;
+
+}
+
+.checkbox_containers{
+
+    padding: 8px;
+
+}
+
