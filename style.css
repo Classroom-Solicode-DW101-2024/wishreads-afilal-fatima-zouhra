@@ -36,8 +36,8 @@ header{
     padding: 1.5rem 2.5rem;
     border-bottom: 1px solid var(--border);
 }
- img{
-    width: 15%;
+.logo{
+    width: 10rem;
 }
 .search{
     display: flex;
@@ -56,7 +56,9 @@ header{
     width: 180px;
     border-radius: 25px 0 0 25px;
 }
-
+.search input:focus, .search select:focus{
+    outline: none;
+}
 /* .search input::before{
     content:'|';
     position: absolute;
@@ -184,8 +186,23 @@ nav ul li a:hover{
 
 /* Footer styel */
 footer {
-    background-color: #949494;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid var(--border);
+    
+}
+.footerBarOne{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+.footerLogo, .footerMenu, .footerContact{
+    width: 30%;
+}
+.footerBarTwo{
+    margin: 0 3rem;
+    padding: 1.5rem;
+    text-align: center;
     border-top: 1px solid var(--border);
 }
