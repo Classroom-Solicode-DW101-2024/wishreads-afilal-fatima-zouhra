@@ -196,3 +196,71 @@ nav ul li a:hover{
 
 
 /*-------- End Categories -----------*/
+
+/*-------- Start WishList -----------*/
+
+.wishlistMain{
+
+    padding: 0 32px;
+
+} 
+
+.wishlistMain h1{
+
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+
+
+}
+
+.wishlistContent{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 32px 0;
+
+}
+
+.wish_bookContainer{
+    width: 45%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    background-color: #F3F3F3;
+    border-radius: 6px;
+}
+
+.wish_bookContainer img{
+    width: 135.52px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.wish_bookContainer div{
+    width: 90%;
+    height: 90%;
+    margin: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wish_bookContainer div *{
+    margin: 6px 0;
+    color: #5E5E5E;
+}
+
+.wish_bookContainer div h3{
+    color: #000000;
+}
+
+
+/*-------- End WishList -----------*/
