@@ -1,6 +1,7 @@
 :root {
     --primary: #F65D4E;    
     --secondary: #8b5cf6;  
+<<<<<<< Updated upstream
     --background: #F6F6F6;
     --surface: #DCE8E6;
     --text-primary: #000000;
@@ -10,18 +11,32 @@
     --error: #ef4444;
     --alert: #a64343;
     
+=======
+    --background: #ffffff;
+    --surface: #DCE8E6;
+    --text-primary: #000000;
+    --text-secondary: #949494;
+    /* --success: #10b981;
+    --error: #ef4444;
+    --alert: #a64343;
+    --border: #e5e7eb;
+>>>>>>> Stashed changes
     --hover: #4f46e5;
     --gradient-start: #6366f1;
     --gradient-end: #8b5cf6; */
 }
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 
+=======
+>>>>>>> Stashed changes
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+<<<<<<< Updated upstream
     font-family: "Raleway", sans-serif;
     background-color: white;
 }
@@ -188,4 +203,13 @@ footer {
     display: flex;
     flex-direction: column;
     border-top: 1px solid var(--border);
+=======
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    
+>>>>>>> Stashed changes
 }

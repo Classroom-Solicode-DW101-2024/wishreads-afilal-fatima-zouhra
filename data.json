@@ -8,6 +8,10 @@
           "fullName":"James Clear",
           "biography":"I’ve been writing at JamesClear.com about habits, decision making, and continuous improvement since 2012."},
     "releaseDate":"2018-10-18"},
+<<<<<<< Updated upstream
+=======
+    "categorie":"many",
+>>>>>>> Stashed changes
   {
     "title": "The Compound Effect",
     "description": "This book reveals that small choices we make each day shape our future.",
