@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Atomic Habits",
+    "description" : "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "cover": "",
+    "linkPDF":"https://ia804500.us.archive.org/8/items/atomic-habits-pdfdrive/Atomic%20habits%20%28%20PDFDrive%20%29.pdf",
+    "author": {
+          "fullName":"James Clear",
+          "biography":"I’ve been writing at JamesClear.com about habits, decision making, and continuous improvement since 2012."},
+    "releaseDate":"2018-10-18"},
+  {
+    "title": "The Compound Effect",
+    "description": "This book reveals that small choices we make each day shape our future.",
+    "cover": "https://m.media-amazon.com/images/I/71V5Z0QG-nL._AC_UY327_FMwebp_QL65_.jpg",
+    "linkPDF": "https://ia803406.us.archive.org/15/items/the-compound-effect-pdfdrive/the-compound-effect-pdfdrive.pdf",
+    "author": {
+        "fullName": "Darren Hardy",
+        "biography": "Darren Hardy is a popular speaker on success and personal growth, sharing principles for achieving goals."
+    },
+    "releaseDate": "2010-11-01"},
+  {
+    "title": "Thinking, Fast and Slow",
+    "description": "An exploration of how the mind works and makes decisions, explaining biases and mental shortcuts.",
+    "cover": "https://m.media-amazon.com/images/I/71BJ3OVGrbL.jpg",
+    "linkPDF": "https://ia601405.us.archive.org/0/items/thinking-fast-and-slow/Thinking,%20Fast%20and%20Slow.pdf",
+    "author": {
+        "fullName": "Daniel Kahneman",
+        "biography": "Daniel Kahneman is a psychologist and Nobel laureate known for his work in behavioral economics."
+    },
+    "releaseDate": "2011-10-25",
+  },
+  {
+    "title": "Deep Work",
+    "description": "A guide to maximizing focus and productivity in an increasingly distracted world.",
+    "cover": "https://m.media-amazon.com/images/I/71SytgGH3HL._AC_UY327_FMwebp_QL65_.jpg",
+    "linkPDF": "https://ia803203.us.archive.org/11/items/deep-work-pdfdrive/deep-work-pdfdrive.pdf",
+    "author": {
+        "fullName": "Cal Newport",
+        "biography": "Cal Newport is a computer science professor and author, known for his focus on productivity and digital minimalism."
+    },
+    "releaseDate": "2016-01-05"
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "description": "A classic guide to personal and professional effectiveness.",
+    "cover": "https://m.media-amazon.com/images/I/81ZpP5V2ZHL.jpg",
+    "linkPDF": "https://ia801401.us.archive.org/4/items/the-7-habits-of-highly-effective-people-pdfdrive/the-7-habits-of-highly-effective-people-pdfdrive.pdf",
+    "author": {
+        "fullName": "Stephen R. Covey",
+        "biography": "Stephen Covey was a leadership and management expert whose work influenced millions worldwide."
+    },
+    "releaseDate": "1989-08-15"
+  },
+  {
+    "title": "Start with Why",
+    "description": "A book about how leaders inspire action by focusing on the 'why' behind their mission.",
+    "cover": "https://m.media-amazon.com/images/I/71Sl4gGyfQL.jpg",
+    "linkPDF": "https://ia801602.us.archive.org/22/items/start-with-why/start-with-why-pdfdrive.pdf",
+    "author": {
+        "fullName": "Simon Sinek",
+        "biography": "Simon Sinek is a motivational speaker and author known for his concept of the 'Golden Circle.'"
+    },
+    "releaseDate": "2009-10-29"
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "description": "A personal finance book that contrasts different approaches to money and wealth.",
+    "cover": "https://m.media-amazon.com/images/I/91VokXkn8hL.jpg",
+    "linkPDF": "https://ia902303.us.archive.org/30/items/rich-dad-poor-dad-pdfdrive/rich-dad-poor-dad-pdfdrive.pdf",
+    "author": {
+        "fullName": "Robert T. Kiyosaki",
+        "biography": "Robert Kiyosaki is an investor, entrepreneur, and author focused on financial education."
+    },
+    "releaseDate": "1997-04-01"
+  },
+  {
+    "title": "Think and Grow Rich",
+    "description": "A personal development and self-help book by Napoleon Hill. It teaches how to achieve success and financial independence.",
+    "cover": "https://m.media-amazon.com/images/I/51EhG-kKCAL._SY445_SX342_.jpg",
+    "pdfLink": "https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf",
+    "author": {
+        "fullName": "Napoleon Hill",
+        "biography": "Napoleon Hill was an American self-help author."
+    },
+    "releaseDate": 1937
+},
+  {
+    "title": "Grit: The Power of Passion and Perseverance",
+    "description": "A book about the power of perseverance and dedication in achieving long-term goals.",
+    "cover": "https://m.media-amazon.com/images/I/71e0iLXoHjL.jpg",
+    "linkPDF": "https://ia800902.us.archive.org/16/items/grit-the-power-of-passion-and-perseverance-pdfdrive/grit-the-power-of-passion-and-perseverance-pdfdrive.pdf",
+    "author": {
+        "fullName": "Angela Duckworth",
+        "biography": "Angela Duckworth is a psychologist known for her research on grit and self-control."
+    },
+    "releaseDate": "2016-05-03"
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "description": "A classic guide to improving communication and building relationships.",
+    "cover": "https://m.media-amazon.com/images/I/81h0bvciHPL.jpg",
+    "linkPDF": "https://ia902906.us.archive.org/23/items/how-to-win-friends-and-influence-people/How-to-Win-Friends-and-Influence-People.pdf",
+    "author": {
+        "fullName": "Dale Carnegie",
+        "biography": "Dale Carnegie was an early self-improvement writer focused on interpersonal skills."
+    },
+    "releaseDate": "1936-10-01"
+  },
+  {
+    "title": "The Lean Startup",
+    "description": "A methodology for developing businesses and products based on validated learning.",
+    "cover": "https://m.media-amazon.com/images/I/71vbEr5Y-ZL.jpg",
+    "linkPDF": "https://ia801401.us.archive.org/12/items/the-lean-startup-pdfdrive/the-lean-startup-pdfdrive.pdf",
+    "author": {
+        "fullName": "Eric Ries",
+        "biography": "Eric Ries is an entrepreneur and author known for developing lean startup principles."
+    },
+    "releaseDate": "2011-09-13"
+  },
+  {
+    "title": "The Power of Habit",
+    "description": "A book that explains how habits work and how to change them.",
+    "cover": "https://m.media-amazon.com/images/I/71d5iZajWeL.jpg",
+    "linkPDF": "https://ia800302.us.archive.org/8/items/the-power-of-habit-pdfdrive/the-power-of-habit-pdfdrive.pdf",
+    "author": {
+        "fullName": "Charles Duhigg",
+        "biography": "Charles Duhigg is a journalist and author specializing in business and behavioral science."
+    },
+    "releaseDate": "2012-02-28"
+  },
+  {
+    "title": "The Alchemist",
+    "description": "A fable about following one’s dreams and discovering one’s purpose.",
+    "cover": "https://m.media-amazon.com/images/I/81vfxyI97yL.jpg",
+    "linkPDF": "https://ia902306.us.archive.org/10/items/the-alchemist_202011/the-alchemist-pdfdrive.pdf",
+    "author": {
+        "fullName": "Paulo Coelho",
+        "biography": "Paulo Coelho is a Brazilian author known for his inspirational and philosophical novels."
+    },
+    "releaseDate": "1988-05-01"
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "description": "A counterintuitive approach to living a good life.",
+    "cover": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg",
+    "linkPDF": "https://ia802607.us.archive.org/8/items/the-subtle-art-of-not-giving-a-fuck-pdfdrive/the-subtle-art-of-not-giving-a-fuck-pdfdrive.pdf",
+    "author": {
+        "fullName": "Mark Manson",
+        "biography": "Mark Manson is a blogger and author known for his blunt approach to self-improvement."
+    },
+    "releaseDate": "2016-09-13"
+  },
+  {
+    "title": "Mindset: The New Psychology of Success",
+    "description": "A book on the difference between fixed and growth mindsets and how they affect achievement.",
+    "cover": "https://m.media-amazon.com/images/I/71tkUTyF1uL.jpg",
+    "linkPDF": "https://ia800801.us.archive.org/17/items/mindset-pdfdrive/mindset-pdfdrive.pdf",
+    "author": {
+        "fullName": "Carol S. Dweck",
+        "biography": "Carol Dweck is a psychologist known for her research on motivation, personality, and development."
+    },
+    "releaseDate": "2006-02-28"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "description": "An exploration of humanity's history from ancient ancestors to modern times.",
+    "cover": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
+    "linkPDF": "https://ia601600.us.archive.org/17/items/sapiens-a-brief-history-of-humankind/Sapiens-A-Brief-History-of-Humankind.pdf",
+    "author": {
+        "fullName": "Yuval Noah Harari",
+        "biography": "Yuval Noah Harari is a historian and professor, known for his writings on history and futurism."
+    },
+    "releaseDate": "2011-01-01"
+  },
+  {
+    "title": "The 4-Hour Workweek",
+    "description": "A book on how to escape the 9-5 grind and design a life of freedom.",
+    "cover": "https://m.media-amazon.com/images/I/71cTGkHZfBL.jpg",
+    "linkPDF": "https://ia601405.us.archive.org/24/items/the-4-hour-workweek-pdfdrive/the-4-hour-workweek-pdfdrive.pdf",
+    "author": {
+        "fullName": "Timothy Ferriss",
+        "biography": "Timothy Ferris (born August 29, 1944) is an American science writer and the best-selling author of twelve books, including The Science of Liberty (2010) and Coming of Age in the Milky Way (1988), for which he was awarded the American Institute of Physics Prize and was nominated for the Pulitzer Prize.[1] He also wrote The Whole Shebang: A State-of-the-Universe(s) Report (1997), a popular science book on the study of the universe. Ferris has produced three PBS documentaries: The Creation of the Universe, Life Beyond Earth, and Seeing in the Dark."
+    },
+    "releaseDate": "2007-04-24"
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "description": "A Holocaust survivor's reflections on finding purpose and meaning in life.",
+    "cover": "https://m.media-amazon.com/images/I/71AXxkMkBFL.jpg",
+    "linkPDF": "https://ia801205.us.archive.org/16/items/mans-search-for-meaning-pdfdrive/mans-search-for-meaning-pdfdrive.pdf",
+    "author": {
+        "fullName": "Viktor E. Frankl",
+        "biography": "Viktor Frankl was an Austrian neurologist and psychiatrist, best known for his work in existential analysis."
+    },
+    "releaseDate": "1946-01-01"
+  },
+  {
+    "title": "The Art of War",
+    "description": "An ancient military treatise on strategy, tactics, and warfare.",
+    "cover": "https://m.media-amazon.com/images/I/71IlnvZ6vML.jpg",
+    "linkPDF": "https://ia800905.us.archive.org/12/items/the-art-of-war-pdfdrive/the-art-of-war-pdfdrive.pdf",
+    "author": {
+        "fullName": "Sun Tzu",
+        "biography": "Sun Tzu was a Chinese general and military strategist whose teachings on warfare remain influential."
+    },
+    "releaseDate": "5th century BC"
+  },
+  {
+    "title": "Zero to One",
+    "description": "A book about building startups, innovation, and creating something unique.",
+    "cover": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg",
+    "linkPDF": "https://ia800504.us.archive.org/12/items/zero-to-one-pdfdrive/zero-to-one-pdfdrive.pdf",
+    "author": {
+        "fullName": "Peter Thiel",
+        "biography": "Peter Thiel is a venture capitalist, entrepreneur, and co-founder of PayPal."
+    },
+    "releaseDate": "2014-09-16"
+  },
+  {
+    "title": "The Obstacle Is the Way",
+    "description": "A guide on how to turn challenges into opportunities, based on Stoic philosophy.",
+    "cover": "https://m.media-amazon.com/images/I/71VGqgNILIL.jpg",
+    "linkPDF": "https://ia800803.us.archive.org/2/items/the-obstacle-is-the-way-pdfdrive/the-obstacle-is-the-way-pdfdrive.pdf",
+    "author": {
+        "fullName": "Ryan Holiday",
+        "biography": "Ryan Holiday is a writer and media strategist known for his works on Stoicism."
+    },
+    "releaseDate": "2014-05-01"
+  },
+  {
+    "title": "The Magic of Thinking Big",
+    "description": "A motivational book on how to set high goals and achieve them.",
+    "cover": "https://m.media-amazon.com/images/I/71lmNRWV-3L.jpg",
+    "linkPDF": "https://ia802604.us.archive.org/7/items/the-magic-of-thinking-big-pdfdrive/the-magic-of-thinking-big-pdfdrive.pdf",
+    "author": {
+        "fullName": "David J. Schwartz",
+        "biography": "David Schwartz was a motivational writer and speaker who encouraged people to aim high."
+    },
+    "releaseDate": "1959-01-01"
+  }
+]
