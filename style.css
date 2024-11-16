@@ -79,7 +79,7 @@ header{
     left: 93%;
 }
 .search i{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-right: 1rem;
 }
 nav ul{
@@ -135,7 +135,8 @@ nav ul li a:hover{
     width: 235px;
     height: 330px;
     margin-left: 1rem;
-    box-shadow: 0 -4px 15px black;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
 }
 .booksRight{
     float: right;
@@ -186,7 +187,6 @@ nav ul li a:hover{
 
 /* Footer styel */
 footer {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     border-top: 1px solid var(--border);
@@ -205,4 +205,86 @@ footer {
     padding: 1.5rem;
     text-align: center;
     border-top: 1px solid var(--border);
+}
+.footerLogo p, .footerContact p{
+    max-width: 55%;
+    padding: 1rem 0;
+}
+.footerMenu ul li{
+    list-style: none;
+    margin: 1.2rem 0;
+}
+.footerMenu ul li a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+.footerMenu ul li a:hover{
+    color: var(--primary);
+}
+.footerContact i{
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+    color: var(--text-secondary);
+}
+/* **************************************** */
+
+.books{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article{
+    width: 18%;
+    margin: 1.75% 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+article img{
+    width: 100%;
+    height: 300px;
+}
+article h3{
+    margin: 0.5rem 0;
+}
+article span{
+    color: var(--text-secondary);
+}
+.addToWishList{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: -50%;
+    top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addToWishList i{
+    color: var(--primary);
+    font-size: 1.75rem;
+    
+}
+article:hover .addToWishList{
+    animation: addToWishList 1s ease forwards;
+}
+article:hover {
+    scale: 1.05;
+    border-radius: 25px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.07);
+}
+@keyframes addToWishList {
+    from {
+        opacity: 0;
+    }
+    to {
+        right: 12%;
+        opacity: 1;
+    }
 }
