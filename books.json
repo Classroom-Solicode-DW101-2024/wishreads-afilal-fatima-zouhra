@@ -9,7 +9,7 @@
         "biography": "I’ve been writing at JamesClear.com about habits, decision making, and continuous improvement since 2012."
       },
       "releaseDate": "2018-10-18",
-      "categorie": "Self-Help"
+      "categorie": "self_help"
     },
     {
       "title": "The Compound Effect",
@@ -21,7 +21,7 @@
         "biography": "Darren Hardy is a popular speaker on success and personal growth, sharing principles for achieving goals."
       },
       "releaseDate": "2010-11-01",
-      "categorie": "Self-Help"
+      "categorie": "self_help"
     },
     {
       "title": "The Power of Habit",
@@ -33,7 +33,7 @@
         "biography": "Charles Duhigg is a journalist and author specializing in business and behavioral science."
       },
       "releaseDate": "2012-02-28",
-      "categorie": "Self-Help"
+      "categorie": "self_help"
     },
     {
       "title": "Thinking, Fast and Slow",
@@ -45,7 +45,7 @@
         "biography": "Daniel Kahneman is a psychologist and Nobel laureate known for his work in behavioral economics."
       },
       "releaseDate": "2011-10-25",
-      "categorie": "Psychology"
+      "categorie": "psychology"
     },
     {
       "title": "Mindset: The New Psychology of Success",
@@ -57,7 +57,7 @@
         "biography": "Carol Dweck is a psychologist known for her research on motivation, personality, and development."
       },
       "releaseDate": "2006-02-28",
-      "categorie": "Psychology"
+      "categorie": "psychology"
     },
     {
       "title": "Grit: The Power of Passion and Perseverance",
@@ -69,7 +69,7 @@
         "biography": "Angela Duckworth is a psychologist known for her research on grit and self-control."
       },
       "releaseDate": "2016-05-03",
-      "categorie": "Psychology"
+      "categorie": "psychology"
     },
     {
       "title": "Rich Dad Poor Dad",
@@ -81,7 +81,7 @@
         "biography": "Robert Kiyosaki is an investor, entrepreneur, and author focused on financial education."
       },
       "releaseDate": "1997-04-01",
-      "categorie": "Finance"
+      "categorie": "finance"
     },
     {
       "title": "Think and Grow Rich",
@@ -93,7 +93,7 @@
         "biography": "Napoleon Hill was an American self-help author."
       },
       "releaseDate": "1937-01-01",
-      "categorie": "Finance"
+      "categorie": "finance"
     },
     {
       "title": "The Millionaire Next Door",
@@ -105,7 +105,7 @@
         "biography": "Thomas J. Stanley was an author and researcher on wealthy individuals."
       },
       "releaseDate": "1996-10-01",
-      "categorie": "Finance"
+      "categorie": "finance"
     },
     {
       "title": "Deep Work",
@@ -117,7 +117,7 @@
         "biography": "Cal Newport is a computer science professor and author, known for his focus on productivity and digital minimalism."
       },
       "releaseDate": "2016-01-05",
-      "categorie": "Productivity"
+      "categorie": "productivity"
     },
     {
       "title": "The 7 Habits of Highly Effective People",
@@ -129,7 +129,7 @@
         "biography": "Stephen Covey was a leadership and management expert whose work influenced millions worldwide."
       },
       "releaseDate": "1989-08-15",
-      "categorie": "Productivity"
+      "categorie": "productivity"
     },
     {
       "title": "The Lean Startup",
@@ -141,7 +141,7 @@
         "biography": "Eric Ries is an entrepreneur and author known for developing lean startup principles."
       },
       "releaseDate": "2011-09-13",
-      "categorie": "Business"
+      "categorie": "business"
     },
     {
       "title": "Zero to One",
@@ -153,7 +153,7 @@
         "biography": "Peter Thiel is a venture capitalist, entrepreneur, and co-founder of PayPal."
       },
       "releaseDate": "2014-09-16",
-      "categorie": "Business"
+      "categorie": "business"
     },
     {
       "title": "Start with Why",
@@ -165,7 +165,7 @@
         "biography": "Simon Sinek is a motivational speaker and author known for his concept of the 'Golden Circle.'"
       },
       "releaseDate": "2009-10-29",
-      "categorie": "Leadership"
+      "categorie": "leadership"
     },
     {
       "title": "Leaders Eat Last",
@@ -177,7 +177,7 @@
         "biography": "Simon Sinek is a motivational speaker and author known for his work on leadership and organizational behavior."
       },
       "releaseDate": "2014-01-07",
-      "categorie": "Leadership"
+      "categorie": "leadership"
     }
   ]
   
