@@ -1,5 +1,8 @@
 let booksContainer = document.getElementById('book_container');
 let booksList = [];
+let readedBooks = [];
+
+readedBooks = JSON.parse(localStorage.getItem("read_books")) || [];
 
 
 booksList = JSON.parse(localStorage.getItem("books")) || [];
@@ -14,6 +17,22 @@ booksList.forEach(book => {
 });
 
 let removeIcons = document.querySelectorAll('.wishlist_remove');
+let readIcons = document.querySelectorAll('.wishlist_read');
+
+readIcons.forEach(icon => {
+
+    icon.addEventListener('click', ()=>{
+
+        let wl_book_title = icon.closest(".wish_bookContainer").querySelector('.wl_book_title').textContent;
+        let wl_authot_name = icon.closest(".wish_bookContainer").querySelector('.wl_author_name').textContent;
+
+        
+
+
+
+    });
+
+})
 
 removeIcons.forEach(icon =>{
     icon.addEventListener('click',() => {
@@ -50,6 +69,7 @@ function UpdateBooks(Container, cover, title, description, authorName, releaseda
                 </div>
                 <div class="hoverContent">
                     <img class="wishlist_remove" src="images/addedToWL.png" alt="add to wishlist">
+                    <img class="wishlist_read" src="images/notRead.png" alt="add to wishlist">
                 </div>
 
             </div>`;
