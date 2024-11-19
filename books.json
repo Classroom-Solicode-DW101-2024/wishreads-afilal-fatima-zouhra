@@ -1,0 +1,183 @@
+[
+    {
+      "title": "Atomic Habits",
+      "description": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "cover": "https://m.media-amazon.com/images/I/71F4+7rk2eL._SL1500_.jpg",
+      "linkPDF": "https://ia804500.us.archive.org/8/items/atomic-habits-pdfdrive/Atomic%20habits%20%28%20PDFDrive%20%29.pdf",
+      "author": {
+        "fullName": "James Clear",
+        "biography": "I’ve been writing at JamesClear.com about habits, decision making, and continuous improvement since 2012."
+      },
+      "releaseDate": "2018-10-18",
+      "categorie": "self_help"
+    },
+    {
+      "title": "The Compound Effect",
+      "description": "This book reveals that small choices we make each day shape our future.",
+      "cover": "https://m.media-amazon.com/images/I/81evvMqBStL._SL1500_.jpg",
+      "linkPDF": "https://www.brizy.cloud/customfile/593e4ab8a91b4f2b2f9a6ea1f875822d.pdf",
+      "author": {
+        "fullName": "Darren Hardy",
+        "biography": "Darren Hardy is a popular speaker on success and personal growth, sharing principles for achieving goals."
+      },
+      "releaseDate": "2010-11-01",
+      "categorie": "self_help"
+    },
+    {
+      "title": "The Power of Habit",
+      "description": "A book that explains how habits work and how to change them.",
+      "cover": "https://m.media-amazon.com/images/I/71mdgnpEkSL._SL1500_.jpg",
+      "linkPDF": "https://archive.org/details/the-power-of-habit-charles-duhigg/mode/2up",
+      "author": {
+        "fullName": "Charles Duhigg",
+        "biography": "Charles Duhigg is a journalist and author specializing in business and behavioral science."
+      },
+      "releaseDate": "2012-02-28",
+      "categorie": "self_help"
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "description": "An exploration of how the mind works and makes decisions, explaining biases and mental shortcuts.",
+      "cover": "https://m.media-amazon.com/images/I/61ZQRfblKrL._SL1500_.jpg",
+      "linkPDF": "https://archive.org/details/thinking-fast-and-slow-daniel-kahneman",
+      "author": {
+        "fullName": "Daniel Kahneman",
+        "biography": "Daniel Kahneman is a psychologist and Nobel laureate known for his work in behavioral economics."
+      },
+      "releaseDate": "2011-10-25",
+      "categorie": "psychology"
+    },
+    {
+      "title": "Mindset: The New Psychology of Success",
+      "description": "A book on the difference between fixed and growth mindsets and how they affect achievement.",
+      "cover": "https://m.media-amazon.com/images/I/61vmgqt2W9L._SL1500_.jpg",
+      "linkPDF": "https://adrvantage.com/wp-content/uploads/2023/02/Mindset-The-New-Psychology-of-Success-Dweck.pdf",
+      "author": {
+        "fullName": "Carol S. Dweck",
+        "biography": "Carol Dweck is a psychologist known for her research on motivation, personality, and development."
+      },
+      "releaseDate": "2006-02-28",
+      "categorie": "psychology"
+    },
+    {
+      "title": "Grit: The Power of Passion and Perseverance",
+      "description": "A book about the power of perseverance and dedication in achieving long-term goals.",
+      "cover": "https://m.media-amazon.com/images/I/81HofIG4iiL._SL1500_.jpg",
+      "linkPDF": "https://shahanedostaliyeva.wordpress.com/wp-content/uploads/2018/07/angela-duckworth-grit.pdf",
+      "author": {
+        "fullName": "Angela Duckworth",
+        "biography": "Angela Duckworth is a psychologist known for her research on grit and self-control."
+      },
+      "releaseDate": "2016-05-03",
+      "categorie": "psychology"
+    },
+    {
+      "title": "Rich Dad Poor Dad",
+      "description": "A personal finance book that contrasts different approaches to money and wealth.",
+      "cover": "https://m.media-amazon.com/images/I/814XbqXAz-L._SL1500_.jpg",
+      "linkPDF": "https://ia904501.us.archive.org/4/items/rich-dad-poor-dad_202106/Rich%20Dad%20Poor%20Dad.pdf",
+      "author": {
+        "fullName": "Robert T. Kiyosaki",
+        "biography": "Robert Kiyosaki is an investor, entrepreneur, and author focused on financial education."
+      },
+      "releaseDate": "1997-04-01",
+      "categorie": "finance"
+    },
+    {
+      "title": "Think and Grow Rich",
+      "description": "A personal development and self-help book by Napoleon Hill. It teaches how to achieve success and financial independence.",
+      "cover": "https://m.media-amazon.com/images/I/51EhG-kKCAL._SY445_SX342_.jpg",
+      "linkPDF": "https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf",
+      "author": {
+        "fullName": "Napoleon Hill",
+        "biography": "Napoleon Hill was an American self-help author."
+      },
+      "releaseDate": "1937-01-01",
+      "categorie": "finance"
+    },
+    {
+      "title": "The Millionaire Next Door",
+      "description": "A book exploring the habits and traits of wealthy individuals.",
+      "cover": "https://m.media-amazon.com/images/I/51IW+n1VvOL._SY445_SX342_.jpg",
+      "linkPDF": "https://archive.org/details/the-millionaire-next-door-thomas-j.-stanley-william-d.-danko",
+      "author": {
+        "fullName": "Thomas J. Stanley",
+        "biography": "Thomas J. Stanley was an author and researcher on wealthy individuals."
+      },
+      "releaseDate": "1996-10-01",
+      "categorie": "finance"
+    },
+    {
+      "title": "Deep Work",
+      "description": "A guide to maximizing focus and productivity in an increasingly distracted world.",
+      "cover": "https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/24/642246/1.jpg?7423",
+      "linkPDF": "https://archive.org/details/deep-work-rules-for-focused-success-in-a-distracted-world-pdfdrive",
+      "author": {
+        "fullName": "Cal Newport",
+        "biography": "Cal Newport is a computer science professor and author, known for his focus on productivity and digital minimalism."
+      },
+      "releaseDate": "2016-01-05",
+      "categorie": "productivity"
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "description": "A classic guide to personal and professional effectiveness.",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREuwsTynutfWvZ_rlmYFF1ffSPzyc3ZIpnKA&s",
+      "linkPDF": "https://icrrd.com/public/media/01-11-2020-212827The%207%20Habits%20of%20Highly%20Effective%20People.pdf",
+      "author": {
+        "fullName": "Stephen R. Covey",
+        "biography": "Stephen Covey was a leadership and management expert whose work influenced millions worldwide."
+      },
+      "releaseDate": "1989-08-15",
+      "categorie": "productivity"
+    },
+    {
+      "title": "The Lean Startup",
+      "description": "A methodology for developing businesses and products based on validated learning.",
+      "cover": "https://m.media-amazon.com/images/I/41Ag4WE7uyL._SY466_.jpg",
+      "linkPDF": "https://ia800509.us.archive.org/7/items/TheLeanStartupErickRies/The%20Lean%20Startup%20-%20Erick%20Ries.pdf",
+      "author": {
+        "fullName": "Eric Ries",
+        "biography": "Eric Ries is an entrepreneur and author known for developing lean startup principles."
+      },
+      "releaseDate": "2011-09-13",
+      "categorie": "business"
+    },
+    {
+      "title": "Zero to One",
+      "description": "A book about building startups, innovation, and creating something unique.",
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecUKvoidcYmQyu45L7bizY5P9JxPwp2PMAUK7v7yRi0XItKup",
+      "linkPDF": "https://morfene.com/021.pdf",
+      "author": {
+        "fullName": "Peter Thiel",
+        "biography": "Peter Thiel is a venture capitalist, entrepreneur, and co-founder of PayPal."
+      },
+      "releaseDate": "2014-09-16",
+      "categorie": "business"
+    },
+    {
+      "title": "Start with Why",
+      "description": "A book about how leaders inspire action by focusing on the 'why' behind their mission.",
+      "cover": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLTThilmS7khXTmikWBQ9nHAtLYNcFsCKZGGWpVEmMnczjVrAk",
+      "linkPDF": "https://archive.org/details/simon-sinek-start-with-why_201709",
+      "author": {
+        "fullName": "Simon Sinek",
+        "biography": "Simon Sinek is a motivational speaker and author known for his concept of the 'Golden Circle.'"
+      },
+      "releaseDate": "2009-10-29",
+      "categorie": "leadership"
+    },
+    {
+      "title": "Leaders Eat Last",
+      "description": "A book exploring how great leaders build trust and create successful teams.",
+      "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKoOYWDgcZzuEpr4h1eh2_Ao8V7iO_Oi_SRsHnAOOAUI60HICC",
+      "linkPDF": "https://icrrd.com/public/media/16-05-2021-042803Leaders-Eat-Last-Simon-Sinek.pdf",
+      "author": {
+        "fullName": "Simon Sinek",
+        "biography": "Simon Sinek is a motivational speaker and author known for his work on leadership and organizational behavior."
+      },
+      "releaseDate": "2014-01-07",
+      "categorie": "leadership"
+    }
+  ]
+  
