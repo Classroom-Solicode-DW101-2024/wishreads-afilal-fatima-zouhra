@@ -70,6 +70,53 @@ function categoriesFunction(arrayBooks = []) {
 
     checkboxes.forEach(checkBox => {
 
+        arrayBooks.forEach(book => {
+
+
+            let isInWL = false;
+
+                        for (let i = 0; i < wishListArray.length; i++) {
+
+                            if (book.title === wishListArray[i].title && book.author.fullName === wishListArray[i].author.fullName) {
+                                isInWL = true;
+                                break;
+                            }
+
+                        }
+
+            if(checkBox.value === "All" && checkBox.checked){
+                if (isInWL) {
+                    booksContainer.innerHTML += `<div class="category_books">
+
+                        <img src="${book.cover}" alt="test book" class="book_cover">
+                        <h3 class="book_title">${book.title}</h3>
+                        <p class="book_authorName">${book.author.fullName}</p>
+                        <div class="content">
+                            <img class="add_to_wl_icon" src="images/addedToWL.png" alt="add to wishlist">
+                        </div>
+                    </div>`;
+                } else {
+
+                        booksContainer.innerHTML += `<div class="category_books">
+
+                            <img src="${book.cover}" alt="test book" class="book_cover">
+                            <h3 class="book_title">${book.title}</h3>
+                            <p class="book_authorName">${book.author.fullName}</p>
+                            <div class="content">
+                                <img class="add_to_wl_icon" src="images/addToWL.png" alt="add to wishlist">
+                            </div>
+                        </div>`;
+
+                }
+            }
+
+        });
+
+        let addToWishListImg = document.querySelectorAll(".add_to_wl_icon");
+        ImageClickListener(addToWishListImg,arrayBooks);
+
+        
+
         checkBox.addEventListener("click", () => {
 
             booksContainer.innerHTML = "";
@@ -84,10 +131,7 @@ function categoriesFunction(arrayBooks = []) {
 
                 arrayBooks.forEach(book => {
 
-
-                    if (book.categorie === checkBox.value) {
-
-                        let isInWL = false;
+                    let isInWL = false;
 
                         for (let i = 0; i < wishListArray.length; i++) {
 
@@ -98,27 +142,59 @@ function categoriesFunction(arrayBooks = []) {
 
                         }
 
+
+                    if(checkBox.value === 'All'){
+
                         if (isInWL) {
                             booksContainer.innerHTML += `<div class="category_books">
 
-            <img src="${book.cover}" alt="test book" class="book_cover">
-            <h3 class="book_title">${book.title}</h3>
-            <p class="book_authorName">${book.author.fullName}</p>
-            <div class="content">
-                <img class="add_to_wl_icon" src="images/addToWL.png" alt="add to wishlist">
-            </div>
-        </div>`;
+                                <img src="${book.cover}" alt="test book" class="book_cover">
+                                <h3 class="book_title">${book.title}</h3>
+                                <p class="book_authorName">${book.author.fullName}</p>
+                                <div class="content">
+                                    <img class="add_to_wl_icon" src="images/addedToWL.png" alt="add to wishlist">
+                                </div>
+                            </div>`;
                         } else {
 
+                                booksContainer.innerHTML += `<div class="category_books">
+
+                                    <img src="${book.cover}" alt="test book" class="book_cover">
+                                    <h3 class="book_title">${book.title}</h3>
+                                    <p class="book_authorName">${book.author.fullName}</p>
+                                    <div class="content">
+                                        <img class="add_to_wl_icon" src="images/addToWL.png" alt="add to wishlist">
+                                    </div>
+                                </div>`;
+
+                        }
+
+
+
+                    }else if (book.categorie === checkBox.value) {
+
+                        
+                        if (isInWL) {
                             booksContainer.innerHTML += `<div class="category_books">
 
-                        <img src="${book.cover}" alt="test book" class="book_cover">
-                        <h3 class="book_title">${book.title}</h3>
-                        <p class="book_authorName">${book.author.fullName}</p>
-                        <div class="content">
-                            <img class="add_to_wl_icon" src="images/addToWL.png" alt="add to wishlist">
-                        </div>
-                    </div>`;
+                                <img src="${book.cover}" alt="test book" class="book_cover">
+                                <h3 class="book_title">${book.title}</h3>
+                                <p class="book_authorName">${book.author.fullName}</p>
+                                <div class="content">
+                                    <img class="add_to_wl_icon" src="images/addedToWL.png" alt="add to wishlist">
+                                </div>
+                            </div>`;
+                        } else {
+
+                                booksContainer.innerHTML += `<div class="category_books">
+
+                                    <img src="${book.cover}" alt="test book" class="book_cover">
+                                    <h3 class="book_title">${book.title}</h3>
+                                    <p class="book_authorName">${book.author.fullName}</p>
+                                    <div class="content">
+                                        <img class="add_to_wl_icon" src="images/addToWL.png" alt="add to wishlist">
+                                    </div>
+                                </div>`;
 
                         }
 
@@ -130,52 +206,9 @@ function categoriesFunction(arrayBooks = []) {
                 });
 
                 let addToWishListImg = document.querySelectorAll(".add_to_wl_icon");
+                ImageClickListener(addToWishListImg,arrayBooks);
 
-                addToWishListImg.forEach(imageClick => {
-
-                    imageClick.addEventListener('click', () => {
-
-                        let isInWishList = false;
-                        let index;
-                        let title = imageClick.closest(".category_books").querySelector('.book_title').textContent;
-                        let authorName = imageClick.closest(".category_books").querySelector('.book_authorName').textContent;
-
-                        arrayBooks.forEach(book => {
-
-                            if (title === book.title && authorName === book.author.fullName) {
-
-                                for (let i = 0; i < wishListArray.length; i++) {
-
-                                    if (wishListArray[i].title === title && wishListArray[i].author.fullName === authorName) {
-                                        isInWishList = true;
-                                        index = i;
-                                        break;
-                                    }
-
-                                }
-
-                                if (!isInWishList) {
-                                    wishListArray.push(book);
-                                    imageClick.src = "images/addedToWL.png";
-                                    localStorage.setItem("books", JSON.stringify(wishListArray));
-                                } else {
-                                    imageClick.src = "images/addToWL.png";
-                                    wishListArray.splice(index, 1);
-                                    localStorage.setItem("books", JSON.stringify(wishListArray));
-                                }
-
-
-
-                            }
-
-                        });
-
-                        console.log(wishListArray);
-
-
-                    });
-
-                })
+                
 
 
             } else {
@@ -189,6 +222,56 @@ function categoriesFunction(arrayBooks = []) {
 
 
 
+
+}
+
+function ImageClickListener(listImages = [],listBooks = []){
+
+    listImages.forEach(imageClick => {
+
+        imageClick.addEventListener('click', () => {
+
+            let isInWishList = false;
+            let index;
+            let title = imageClick.closest(".category_books").querySelector('.book_title').textContent;
+            let authorName = imageClick.closest(".category_books").querySelector('.book_authorName').textContent;
+
+            listBooks.forEach(book => {
+
+                if (title === book.title && authorName === book.author.fullName) {
+
+                    for (let i = 0; i < wishListArray.length; i++) {
+
+                        if (wishListArray[i].title === title && wishListArray[i].author.fullName === authorName) {
+                            isInWishList = true;
+                            index = i;
+                            break;
+                        }
+
+                    }
+
+                    if (!isInWishList) {
+                        wishListArray.push(book);
+                        imageClick.src = "images/addedToWL.png";
+                        localStorage.setItem("books", JSON.stringify(wishListArray));
+                    } else {
+                        imageClick.src = "images/addToWL.png";
+                        wishListArray.splice(index, 1);
+                        localStorage.setItem("books", JSON.stringify(wishListArray));
+                    }
+
+
+
+                }
+
+            });
+
+            console.log(wishListArray);
+
+
+        });
+
+    });
 
 }
 
