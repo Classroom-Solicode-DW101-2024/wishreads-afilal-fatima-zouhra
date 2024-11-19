@@ -23,9 +23,40 @@ readIcons.forEach(icon => {
 
     icon.addEventListener('click', ()=>{
 
+        let isAvailableInReadList = false;
+        let index;
         let wl_book_title = icon.closest(".wish_bookContainer").querySelector('.wl_book_title').textContent;
         let wl_authot_name = icon.closest(".wish_bookContainer").querySelector('.wl_author_name').textContent;
 
+
+        for(let i =0 ; i < readedBooks.length ; i++){
+
+            if(readedBooks[i].title === wl_book_title && readedBooks[i].authorName === wl_authot_name){
+                isAvailableInReadList = true;
+                index = i;
+
+            }
+
+        }
+
+        if(isAvailableInReadList){
+
+            readedBooks.splice(index ,1);
+            localStorage.setItem("read_books",JSON.stringify(readedBooks));
+            icon.src = "images/book_not_readed.png"
+
+        }else{
+            const readedBook = new Object({
+                title : wl_book_title,
+                authorName : wl_authot_name
+            })
+    
+            readedBooks.push(readedBook);
+    
+            localStorage.setItem("read_books",JSON.stringify(readedBooks));
+    
+            icon.src = "images/book_readed.png"
+        }
         
 
 
@@ -39,6 +70,19 @@ removeIcons.forEach(icon =>{
 
         let wl_book_title = icon.closest(".wish_bookContainer").querySelector('.wl_book_title').textContent;
         let wl_authot_name = icon.closest(".wish_bookContainer").querySelector('.wl_author_name').textContent;
+
+        for(let i =0 ; i < readedBooks.length ; i++){
+
+            if(readedBooks[i].title === wl_book_title && readedBooks[i].authorName === wl_authot_name){
+                
+                readedBooks.splice(i,1);
+                localStorage.setItem("read_books",JSON.stringify(readedBooks));
+
+            }
+
+        }
+
+
 
         for(let i =0 ; i<booksList.length ; i++){
 
@@ -55,6 +99,27 @@ removeIcons.forEach(icon =>{
 
 function UpdateBooks(Container, cover, title, description, authorName, releasedate){
 
+    let isInReadList = false;
+    let imageSrc= 'book_not_readed.png';
+
+    readedBooks.forEach(readedBook => {
+
+            
+            if(readedBook.title === title && readedBook.authorName === authorName){
+                isInReadList = true;
+            }
+
+        
+
+    });
+
+    if(isInReadList){
+        imageSrc = 'book_readed.png';
+    }
+
+
+
+
     Container.innerHTML +=`<div class="wish_bookContainer">
 
                 <img class="wl_book_cover" src="${cover}" alt="test Image">
@@ -69,7 +134,7 @@ function UpdateBooks(Container, cover, title, description, authorName, releaseda
                 </div>
                 <div class="hoverContent">
                     <img class="wishlist_remove" src="images/addedToWL.png" alt="add to wishlist">
-                    <img class="wishlist_read" src="images/notRead.png" alt="add to wishlist">
+                    <img class="wishlist_read" src="images/${imageSrc}" alt="add to wishlist">
                 </div>
 
             </div>`;
