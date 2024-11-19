@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu personnalisé</title>
+    <style>
+        /* Style du menu déroulant */
+        .custom-select {
+            position: relative;
+            display: inline-block;
+            width: 200px;
+        }
+
+        .custom-select select {
+            display: none; /* Cacher le select natif */
+        }
+
+        .select-items {
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 99;
+            width: 100%;
+            display: none;
+        }
+
+        .select-items div {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .select-items div:hover {
+            background-color: #ddd;
+        }
+
+        .select-selected {
+            padding: 10px;
+            background-color: #f0f8ff;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="custom-select">
+    <div class="select-selected">All</div>
+    <div class="select-items">
+        <div>All</div>
+        <div>Title</div>
+        <div>Author</div>
+        <div>Categorie</div>
+    </div>
+</div>
+
+<script>
+    // Fonction pour ouvrir/fermer le menu
+    document.querySelector('.select-selected').addEventListener('click', function() {
+        var items = document.querySelector('.select-items');
+        items.style.display = items.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Fonction pour sélectionner une option
+    document.querySelectorAll('.select-items div').forEach(function(item) {
+        item.addEventListener('click', function() {
+            document.querySelector('.select-selected').textContent = item.textContent;
+            document.querySelector('.select-items').style.display = 'none';
+        });
+    });
+
+    // Fermer le menu si on clique à l'extérieur
+    window.addEventListener('click', function(event) {
+        if (!event.target.matches('.select-selected')) {
+            document.querySelector('.select-items').style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>

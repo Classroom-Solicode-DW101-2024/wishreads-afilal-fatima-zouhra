@@ -1,0 +1,243 @@
+[
+  
+  {
+    "title": "The Lean Startup",
+    "description": "A methodology for developing businesses and products based on validated learning.",
+    "cover": "images/The Lean Startup.webp",
+    "linkPDF": "https://ia801401.us.archive.org/12/items/the-lean-startup-pdfdrive/the-lean-startup-pdfdrive.pdf",
+    "author": {
+        "fullName": "Eric Ries",
+        "biography": "Eric Ries is an entrepreneur and author known for developing lean startup principles."
+    },
+    "releaseDate": "2011-09-13",
+    "categories":["business", "startups", "entrepreneurship"]
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "description": "An exploration of how the mind works and makes decisions, explaining biases and mental shortcuts.",
+    "cover": "images/Thinking, Fast and Slow.jpg",
+    "linkPDF": "",
+    "author": {
+        "fullName": "Daniel Kahneman",
+        "biography": "Daniel Kahneman is a psychologist and Nobel laureate known for his work in behavioral economics."
+    },
+    "releaseDate": "2011-10-25",
+    "categories":["psychology", "behavioral economics", "cognitive science"]
+  },
+  {
+    "title": "Becoming",
+    "description": "A memoir by Michelle Obama, offering a deeply personal account of her life, from childhood to her time as the First Lady of the United States.",
+    "cover": "images/Becoming.jpg",
+    "linkPDF": "",
+    "author": {
+      "fullName": "Michelle Obama",
+      "biography": "Michelle Obama is a lawyer, writer, and former First Lady of the United States, known for her advocacy on education, health, and military families."
+    },
+    "releaseDate": "2018-11-13",
+    "categories": ["Memoir", "Biography", "Non-fiction"]
+  },  
+  {
+    "title": "Deep Work",
+    "description": "A guide to maximizing focus and productivity in an increasingly distracted world.",
+    "cover": "images/Deep Work.jpg",
+    "linkPDF": "",
+    "author": {
+        "fullName": "Cal Newport",
+        "biography": "Cal Newport is a computer science professor and author, known for his focus on productivity and digital minimalism."
+    },
+    "releaseDate": "2016-01-05",
+    "categories":["productivity", "focus", "self-help"]
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "description": "A classic guide to improving communication and building relationships.",
+    "cover": "images/How to Win Friends and Influence People.jpg",
+    "linkPDF": "https://www.rfpmm.org/pdf/how-to-win-friends-and-influence-people.pdf",
+    "author": {
+        "fullName": "Dale Carnegie",
+        "biography": "Dale Carnegie was an early self-improvement writer focused on interpersonal skills."
+    },
+    "releaseDate": "1936-10-01",
+    "categories":["self-help", "communication", "relationships"]
+  },
+  {
+    "title": "Start with Why",
+    "description": "A book about how leaders inspire action by focusing on the 'why' behind their mission.",
+    "cover": "images/Start with Why.png",
+    "linkPDF": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLTThilmS7khXTmikWBQ9nHAtLYNcFsCKZGGWpVEmMnczjVrAk",
+    "author": {
+        "fullName": "Simon Sinek",
+        "biography": "Simon Sinek is a motivational speaker and author known for his concept of the 'Golden Circle.'"
+    },
+    "releaseDate": "2009-10-29",
+    "categories":["leadership", "motivation", "business"]
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "description": "A personal finance book that contrasts different approaches to money and wealth.",
+    "cover": "images/Rich Dad Poor Dad.jpg",
+    "linkPDF": "https://drive.google.com/file/d/0B1dv5sqSPsPbdnd4UlZ6VE1kSDA/view?resourcekey=0--phOyjhQe5k9NoCjuOxhSQ",
+    "author": {
+        "fullName": "Robert T. Kiyosaki",
+        "biography": "Robert Kiyosaki is an investor, entrepreneur, and author focused on financial education."
+    },
+    "releaseDate": "1997-04-01",
+    "categories":["personal finance", "investing", "financial education"]
+  },
+  {
+    "title": "Atomic Habits",
+    "description" : "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "cover": "images/AtomicHabits.jpg",
+    "linkPDF":"https://ia804500.us.archive.org/8/items/atomic-habits-pdfdrive/Atomic%20habits%20%28%20PDFDrive%20%29.pdf",
+    "author": {
+          "fullName":"James Clear",
+          "biography":"I’ve been writing at JamesClear.com about habits, decision making, and continuous improvement since 2012."
+    },
+    "releaseDate":"2018-10-18",
+    "categories":["self-help", "productivity", "behavioral science"]
+  },
+  {
+    "title": "Think and Grow Rich",
+    "description": "A personal development and self-help book by Napoleon Hill. It teaches how to achieve success and financial independence.",
+    "cover": "images/Think and Grow Rich.jpg",
+    "linkPDF": "https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf",
+    "author": {
+        "fullName": "Napoleon Hill",
+        "biography": "Napoleon Hill was an American self-help author."
+    },
+    "releaseDate": 1937,
+    "categories":["self-help", "success", "personal development"]
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "description": "A classic guide to personal and professional effectiveness.",
+    "cover": "images/The 7 Habits of Highly Effective People.jpg",
+    "linkPDF": "https://drive.google.com/file/d/0B59A49E2AGkCNW9DN016NFdmZVk/view?resourcekey=0-fsknkB_VurKKRCocBCeCAg",
+    "author": {
+        "fullName": "Stephen R. Covey",
+        "biography": "Stephen Covey was a leadership and management expert whose work influenced millions worldwide."
+    },
+    "releaseDate": "1989-08-15",
+    "categories":["self-help", "leadership", "productivity"]
+  },
+  {
+    "title": "The Power of Habit",
+    "description": "A book that explains how habits work and how to change them.",
+    "cover": "images/The Power of Habit.jpg",
+    "linkPDF": "https://ia800302.us.archive.org/8/items/the-power-of-habit-pdfdrive/the-power-of-habit-pdfdrive.pdf",
+    "author": {
+        "fullName": "Charles Duhigg",
+        "biography": "Charles Duhigg is a journalist and author specializing in business and behavioral science."
+    },
+    "releaseDate": "2012-02-28",
+    "categories":["self-help", "habits", "behavioral science"]
+  },
+  {
+    "title": "The Alchemist",
+    "description": "A fable about following one’s dreams",
+    "cover": "images/The Alchemist.jpg",
+    "linkPDF": "https://ia800303.us.archive.org/24/items/the-alchemist-pdfdrive/the-alchemist-pdfdrive.pdf",
+    "author": {
+        "fullName": "Paulo Coelho",
+        "biography": "Paulo Coelho is a Brazilian author, best known for his novel 'The Alchemist,' which has been translated into many languages."
+    },
+    "releaseDate": "1988-05-01",
+    "categories":["fiction", "adventure", "inspiration"]
+  },
+  {
+    "title": "Dare to Lead",
+    "description": "A book on leadership that explores vulnerability and courage as key factors in building successful teams.",
+    "cover": "images/Dare to Lead.jpg",
+    "linkPDF": "https://ia803206.us.archive.org/21/items/dare-to-lead-pdfdrive/dare-to-lead-pdfdrive.pdf",
+    "author": {
+        "fullName": "Brené Brown",
+        "biography": "Brené Brown is a research professor at the University of Houston and an expert on leadership, vulnerability, and courage."
+    },
+    "releaseDate": "2018-10-09",
+    "categories":["leadership", "self-help", "psychology"]
+  },
+  {
+    "title": "The 5 AM Club",
+    "description": "A guide to waking up early and using the first hours of the day to maximize success and personal growth.",
+    "cover": "images/The 5 AM Club.jpg",
+    "linkPDF": "https://ia803106.us.archive.org/25/items/the-5-am-club-pdfdrive/the-5-am-club-pdfdrive.pdf",
+    "author": {
+        "fullName": "Robin Sharma",
+        "biography": "Robin Sharma is a leadership speaker and author, known for his work on productivity and success."
+    },
+    "releaseDate": "2018-12-04",
+    "categories":["self-help", "productivity", "motivation"]
+  },
+  {
+    "title": "The Compound Effect",
+    "description": "This book reveals that small choices we make each day shape our future.",
+    "cover": "images/The Compound Effect.jpg",
+    "linkPDF": "https://ia803406.us.archive.org/15/items/the-compound-effect-pdfdrive/the-compound-effect-pdfdrive.pdf",
+    "author": {
+        "fullName": "Darren Hardy",
+        "biography": "Darren Hardy is a popular speaker on success and personal growth, sharing principles for achieving goals."
+    },
+    "releaseDate": "2010-11-01",
+    "categories":["self-help", "success", "productivity"]
+  },
+  {
+    "title": "Mindset: The New Psychology of Success",
+    "description": "A book on the difference between fixed and growth mindsets and how they affect achievement.",
+    "cover": "https://m.media-amazon.com/images/I/61vmgqt2W9L._SL1500_.jpg",
+    "linkPDF": "https://adrvantage.com/wp-content/uploads/2023/02/Mindset-The-New-Psychology-of-Success-Dweck.pdf",
+    "author": {
+      "fullName": "Carol S. Dweck",
+      "biography": "Carol Dweck is a psychologist known for her research on motivation, personality, and development."
+    },
+    "releaseDate": "2006-02-28",
+    "categories": ["Psychology"]
+  },
+  {
+    "title": "Grit: The Power of Passion and Perseverance",
+    "description": "A book about the power of perseverance and dedication in achieving long-term goals.",
+    "cover": "https://m.media-amazon.com/images/I/81HofIG4iiL._SL1500_.jpg",
+    "linkPDF": "https://shahanedostaliyeva.wordpress.com/wp-content/uploads/2018/07/angela-duckworth-grit.pdf",
+    "author": {
+      "fullName": "Angela Duckworth",
+      "biography": "Angela Duckworth is a psychologist known for her research on grit and self-control."
+    },
+    "releaseDate": "2016-05-03",
+    "categories": ["Psychology"]
+  },
+  {
+    "title": "The Millionaire Next Door",
+    "description": "A book exploring the habits and traits of wealthy individuals.",
+    "cover": "https://m.media-amazon.com/images/I/51IW+n1VvOL._SY445_SX342_.jpg",
+    "linkPDF": "https://archive.org/details/the-millionaire-next-door-thomas-j.-stanley-william-d.-danko",
+    "author": {
+      "fullName": "Thomas J. Stanley",
+      "biography": "Thomas J. Stanley was an author and researcher on wealthy individuals."
+    },
+    "releaseDate": "1996-10-01",
+    "categories": ["Finance"]
+  },
+  {
+    "title": "Zero to One",
+    "description": "A book about building startups, innovation, and creating something unique.",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecUKvoidcYmQyu45L7bizY5P9JxPwp2PMAUK7v7yRi0XItKup",
+    "linkPDF": "https://morfene.com/021.pdf",
+    "author": {
+      "fullName": "Peter Thiel",
+      "biography": "Peter Thiel is a venture capitalist, entrepreneur, and co-founder of PayPal."
+    },
+    "releaseDate": "2014-09-16",
+    "categories": ["Business"]
+  },
+  {
+    "title": "Leaders Eat Last",
+    "description": "A book exploring how great leaders build trust and create successful teams.",
+    "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKoOYWDgcZzuEpr4h1eh2_Ao8V7iO_Oi_SRsHnAOOAUI60HICC",
+    "linkPDF": "https://icrrd.com/public/media/16-05-2021-042803Leaders-Eat-Last-Simon-Sinek.pdf",
+    "author": {
+      "fullName": "Simon Sinek",
+      "biography": "Simon Sinek is a motivational speaker and author known for his work on leadership and organizational behavior."
+    },
+    "releaseDate": "2014-01-07",
+    "categorie": ["Leadership"]
+  }
+]

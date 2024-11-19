@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navBar">
+            <img src="images/logo.png" alt="Library Logo" class="logo">
+            <div class="search">
+                <select id="searchBy">
+                    <option value="all">All</option>
+                    <option value="title">Title</option>
+                    <option value="author">Author</option>
+                    <option value="categorie">Categorie</option>
+                </select>
+                <input type="text" id="searchInput" placeholder="Search Books...">
+                <button onclick="searchBookTest()" id="searchButton" ><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="wishlist.html">Wish List</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="booksLeft">
+            <img src="images/The Compound Effect.jpg" alt="The Compound Effect">
+            <img src="images/AtomicHabits.jpg" alt="Atomic Habits">
+        </div>
+        <div class="textBanner">
+            <h2>Meet Your Next Favorite Book.</h2>
+            <button>Discover Now > </button>
+        </div>
+        <div class="booksRight">
+            <img src="images/Thinking, Fast and Slow.jpg" alt="Thinking Fast and Slow">
+            <img src="images/The Alchemist.jpg" alt="The Alchemist">
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section class="books">
+        <!-- Repeat for each book in JS  -->
+         
+            <!-- <div class="cercle"><i class="fa-solid fa-heart"></i></div> -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footerBarOne">
+            <div class="footerLogo">
+                <img src="images/logo.png" alt="Library Logo" class="logo">
+                <p>Library draws book lovers of all ages into a community, engage with booklovers and meet their favourite literary personalities.</p>
+            </div>
+            <div class="footerMenu">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Wish List</a></li>
+                </ul> 
+            </div>
+            <div class="footerContact">
+                <h3>Contact</h3>
+                <p>Stay in touch with everything ChapterOne, follow us on social media and learn about new promotions.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footerBarTwo">
+            <p>&copy; 2024 <span style="color:#F65D4E;">Library</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
