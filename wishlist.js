@@ -69,7 +69,7 @@ readIcons.forEach(icon => {
 
             readedBooks.splice(index ,1);
             localStorage.setItem("read_books",JSON.stringify(readedBooks));
-            icon.src = "images/book_not_readed.png"
+            icon.src = "images/accept.png"
 
         }else{
             const readedBook = new Object({
@@ -81,7 +81,7 @@ readIcons.forEach(icon => {
     
             localStorage.setItem("read_books",JSON.stringify(readedBooks));
     
-            icon.src = "images/book_readed.png"
+            icon.src = "images/readed.png"
         }
         
         window.location.reload();
@@ -126,7 +126,7 @@ removeIcons.forEach(icon =>{
 function UpdateBooks(ContainerNormal,ContainerReaded, cover, title, description, authorName, releasedate){
 
     let isInReadList = false;
-    let imageSrc= 'book_not_readed.png';
+    let imageSrc= 'accept.png';
     let container = ContainerNormal;
 
     readedBooks.forEach(readedBook => {
@@ -141,7 +141,7 @@ function UpdateBooks(ContainerNormal,ContainerReaded, cover, title, description,
     });
 
     if(isInReadList){
-        imageSrc = 'book_readed.png';
+        imageSrc = 'readed.png';
         container = ContainerReaded;
     }
 
